@@ -53,24 +53,29 @@
             <div class="row row-gap-2">
                 <div class="col-6">
                     <label class="form-label fw-medium">Nome autore</label>
-                    <input type="email" class="form-control" placeholder="Inserisci il nome dell'autore">
+                    <input type="text" class="form-control" placeholder="Inserisci il nome dell'autore">
                 </div>
                 <div class="col-6">
                     <label class="form-label fw-medium">Cognome autore</label>
-                    <input type="" class="form-control" placeholder="Inserisci il cognome">
+                    <input type="text" class="form-control" placeholder="Inserisci il cognome">
                 </div>
                 <div class="col-12">
                     <label class="form-label fw-medium">Titolo</label>
-                    <input type="" class="form-control" placeholder="Inserisci il titolo del libro">
-                     <div class="form-text">Titolo versione italiana</div>
+                    <input type="text" class="form-control" placeholder="Inserisci il titolo del libro">
+                    <div class="form-text">Titolo versione italiana</div>
                 </div>
                 <div class="col-12">
-                    <label class="form-label fw-medium">Genere</label>
-                    <input type="" class="form-control" placeholder="Inserisci il titolo del libro">
+                    <label class="form-label">Genere</label>
+                    <select class="form-select" name="" id="">
+                        <option selected>Scegli il genere</option>
+                        <option value="">Avventura</option>
+                        <option value="">Thriller</option>
+                        <option value="">Fiction</option>
+                    </select>
                 </div>
                 <div class="col-12">
                     <label class="form-label fw-medium">Anno di Pubblicazione</label>
-                    <input type="" class="form-control" placeholder="Inserisci l'anno">
+                    <input type="text" class="form-control" placeholder="Inserisci l'anno">
                 </div>
                 <div class="col-12">
                     <label class="form-label fw-medium">ISBN#</label>
@@ -78,12 +83,14 @@
                 </div>
             </div>
             <hr class="mt-5">
-            <div class="form">
-
+            <div class="row">
+                <div class="col-12">
+                    <label class="form-label fw-medium">Note</label>
+                    <textarea id="" class="form-control" rows="3" placeholder="Inserisci eventuali note sul libro"></textarea>
+                </div>
             </div>
         </form>
     </div>
-
 </body>
 
 </html>
