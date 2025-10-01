@@ -64,8 +64,8 @@
                     <input type="text" class="form-control" placeholder="Inserisci il titolo del libro">
                     <div class="form-text">Titolo versione italiana</div>
                 </div>
-                <div class="col-12">
-                    <label class="form-label">Genere</label>
+                <div class="col-12 col-lg-4">
+                    <label class="form-label fw-medium">Genere</label>
                     <select class="form-select" name="" id="">
                         <option selected>Scegli il genere</option>
                         <option value="">Avventura</option>
@@ -73,22 +73,28 @@
                         <option value="">Fiction</option>
                     </select>
                 </div>
-                <div class="col-12">
+                <div class="col-12 col-lg-4">
                     <label class="form-label fw-medium">Anno di Pubblicazione</label>
                     <input type="text" class="form-control" placeholder="Inserisci l'anno">
                 </div>
-                <div class="col-12">
+                <div class="col-12 col-lg-4">
                     <label class="form-label fw-medium">ISBN#</label>
                     <input type="" class="form-control" placeholder="Inserisci il codice ISBN#">
                 </div>
             </div>
-            <hr class="mt-5">
+            <hr class="mt-4">
             <div class="row">
                 <div class="col-12">
                     <label class="form-label fw-medium">Note</label>
-                    <textarea id="" class="form-control" rows="3" placeholder="Inserisci eventuali note sul libro"></textarea>
+                    <textarea id="" class="form-control" rows="3"
+                        placeholder="Inserisci eventuali note sul libro"></textarea>
                 </div>
             </div>
+            <div class="mt-3 form-check">
+                <input type="checkbox" class="form-check-input">
+                <label class="form-check-label">Disponibile anche in italiano</label>
+            </div>
+            <button class="btn btn-primary mt-3">Aggiungi Libro</button>
         </form>
     </div>
 </body>
